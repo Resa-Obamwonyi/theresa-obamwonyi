@@ -1,17 +1,14 @@
 import React from 'react';
 import {MainStyle} from './style';
+import IntroPhoto from '../Introphoto';
+import IntroText from '../IntroText';
 
 const Main=() => {
 
     return (
-        <MainStyle>  
-            <h1>Hello There</h1>
-            <p> Some bunch of texts</p>
-            <p> Some bunch of texts</p>
-            <p> Some bunch of texts</p>
-            <p> Some bunch of texts</p>
-            <p> Some bunch of texts</p>
-            <p> Some bunch of texts</p>
+        <MainStyle> 
+            <IntroText /> 
+            <IntroPhoto />
         </MainStyle>
         )
 }

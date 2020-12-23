@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavWrapStyle} from './style';
 import Nav from '../Nav'
+import Button from '../Button'
 
 const NavWrap=() => {
 
@@ -8,7 +9,7 @@ const NavWrap=() => {
         <NavWrapStyle>  
             <Nav link="#About">About</Nav>
             <Nav link="#Experience">Current XP</Nav>
-            <Nav link="#Contact">Contact</Nav>
+            <Button href="#Contact" width="150">Contact</Button>
         </NavWrapStyle>
         )
 }

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const MainStyle = styled.div`
-    background-color: #f5f0e1;
-    padding-top: 50px;
+    background-color: #F3F4F5;
+    height: 80vh;
+    ${'' /* padding-top: 50px; */}
 `;
