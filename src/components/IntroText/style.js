@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 
 export const IntroTextStyle = styled.div`
-    width: 35%;
+    ${'' /* width: 35%; */}
+    flex-basis: 40%;
     font-size: 29px;
-    float: left;
+    ${'' /* float: left; */}
     text-align: left;
     margin: 120px 0px 100px 30px;
     color: #14151B;

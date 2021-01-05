@@ -3,13 +3,12 @@ import styled from 'styled-components';
 
 export const IntroPhotoStyle = styled.div`
     padding-top: 50px;
+    ${'' /* flex-basis: 60%; */}
     img{
-        display: flex;
         width:60%;
         height:80%;
-        float: right;
-        padding: 20px 0px 50px 0px;
-        clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+        padding-top: 20px;
+        ${'' /* clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%); */}
 
 }
 
@@ -17,5 +16,5 @@ export const IntroPhotoStyle = styled.div`
     img{
         padding-top: 100px;
     }
-}
+    }
 `;
