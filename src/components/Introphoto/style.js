@@ -2,13 +2,12 @@ import styled from 'styled-components';
 
 
 export const IntroPhotoStyle = styled.div`
-    padding-top: 50px;
-    ${'' /* flex-basis: 60%; */}
+    flex-basis: 60%;
     img{
-        width:60%;
-        height:80%;
-        padding-top: 20px;
-        ${'' /* clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%); */}
+        float:left;
+        width:100%;
+        height:100%;
+        clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
 
 }
 
