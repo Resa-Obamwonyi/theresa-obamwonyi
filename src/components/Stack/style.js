@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 export const StackStyle = styled.div`
    float: left;
-   margin: 100px 40px;
+   margin: 100px 3%;
    img{
-       width: 150px;
-       height: 150px;
+       width: 120px;
+       height: 120px;
    }
 `;

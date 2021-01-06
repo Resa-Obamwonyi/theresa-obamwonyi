@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const ButtonStyle = styled.button`
     background-color: #14151B;
+    ${'' /* background-image: linear-gradient(to right, #F7CA18, red); */}
     width: ${({width})=>width};
     height: 50px;
     margin: 10px 20px 10px 0px;

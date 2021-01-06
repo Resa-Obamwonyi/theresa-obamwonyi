@@ -6,13 +6,17 @@ const Sumtext=() => {
 
     return (
         <SumtextStyle>  
-            <h1>Software Engineer<br /> 
-            <span className="pop-color">Writer</span><br />
-            Technical Editor.</h1>
-            <p className="intro-paragraph">I am passionate about building sustainable and scalable software applications. 
-            Efficient, Dedicated, and Creative.<br />
-             A highly analytic, emphatic team player. </p>
-            <Button link="download-resume" width="200">Download Resume</Button>
+            <h1>Committed to Making things Work.<br />
+
+            <span className="pop-color">Lifelong Learner</span></h1>
+            
+            <p className="summary-paragraph">Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit. Cras sed tempus risus. Vivamus at convallis sem.
+            Aliquam et posuere tortor, quis vestibulum dolor. Nunc lacinia malesuada interdum. 
+            Sed id auctor elit. Proin tellus risus, hendrerit et dui vitae, scelerisque placerat lectus.
+            Morbi cursus malesuada erat non pharetra.</p>
+
+            <Button link="send-a-mail" width="200">Send an Email</Button>
         </SumtextStyle>
         )
 }

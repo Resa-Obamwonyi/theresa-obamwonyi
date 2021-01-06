@@ -2,7 +2,7 @@
 import Header from './components/Header';
 import Main from './components/Main';
 import StackWrap from './components/Stack Wrap';
-
+import Summary from './components/Summary';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Main />
       <StackWrap />
+      <Summary />
     </div>
   );
 }
