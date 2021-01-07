@@ -8,6 +8,7 @@ const NavWrap=() => {
     return (
         <NavWrapStyle>  
             <Nav link="#About">About</Nav>
+            <Nav link="https://resa-obamwonyi.hashnode.dev/">Blog</Nav>
             <Nav link="#Experience">Current XP</Nav>
             <Button href="#Contact" width="150">Contact</Button>
         </NavWrapStyle>
