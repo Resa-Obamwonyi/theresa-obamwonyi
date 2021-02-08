@@ -18,4 +18,5 @@ export const IntroTextStyle = styled.div`
         font-size: 20px;
         font-weight: 400;
     }
+    
 `;

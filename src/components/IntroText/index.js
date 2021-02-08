@@ -20,7 +20,7 @@ const IntroText=() => {
         </p>
         <Button
           link="https://drive.google.com/file/d/1zPVfT3IH4k9pVhUpAeaY-U4dJMEFMLDa/view?usp=sharing"
-          width="200"
+          width="200px" className="btn"
         >
           Download Resume
         </Button>

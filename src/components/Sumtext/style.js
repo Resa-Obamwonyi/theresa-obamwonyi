@@ -10,7 +10,10 @@ export const SumtextStyle = styled.div`
     .summary-paragraph{
         line-height: 30px;
         color: #353744;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
+    }
+    h1{
+        font-size: 40px;
     }
 `;

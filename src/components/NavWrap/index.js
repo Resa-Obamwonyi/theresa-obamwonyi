@@ -13,7 +13,7 @@ const NavWrap=() => {
         <Nav link="#About"><FaUser /></Nav>
         <Nav link="https://resa-obamwonyi.hashnode.dev/"><FaBlog /></Nav>
         <Nav link="#Experience"><CgWorkAlt /></Nav>
-        <Button href="#Contact" width="150">Contact</Button>
+        <Button href="#Contact" width="150px">Contact</Button>
       </NavWrapStyle>
     );
 }
