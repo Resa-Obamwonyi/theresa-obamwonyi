@@ -8,7 +8,7 @@ export const NavStyle = styled.li`
     a {
         text-decoration: none;
         color: #14151B;
-        font-size: 17px;
+        font-size: 25px;
         font-weight: 600;
     }
 `;
