@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 
 export const StackStyle = styled.div`
-   float: left;
-   margin: 100px 3%;
-   img{
-       width: 120px;
-       height: 120px;
-   }
+  margin: 100px 0.8%;
+  width: 15%;
+  img {
+    width: 120px;
+    height: 120px;
+  }
 `;

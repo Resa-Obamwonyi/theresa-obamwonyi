@@ -7,6 +7,6 @@ export const LogoStyle = styled.div`
     color: #14151B;
     padding-left: 30px;
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 `;

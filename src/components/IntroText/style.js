@@ -11,6 +11,9 @@ export const IntroTextStyle = styled.div`
     .pop-color{
         color: #569ACB;
     }
+    h1 {
+        font-size: 60px;
+    }
 
     .intro-paragraph{
         line-height: 30px;
