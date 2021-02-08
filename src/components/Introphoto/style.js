@@ -12,8 +12,6 @@ export const IntroPhotoStyle = styled.div`
 }
 
 @media(max-width: 480px){
-    img{
-        padding-top: 100px;
-    }
+    flex-basis: 0%;
     }
 `;

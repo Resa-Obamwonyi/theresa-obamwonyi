@@ -14,4 +14,9 @@ export const SkillSingleStyle = styled.div`
     display: block;
     font-weight: 600;
   }
+
+  @media(max-width: 480px){
+    margin: 50px 5%;
+    width: 40%;
+  }
 `;

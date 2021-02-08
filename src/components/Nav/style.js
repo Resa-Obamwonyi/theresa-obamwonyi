@@ -11,4 +11,8 @@ export const NavStyle = styled.li`
         font-size: 25px;
         font-weight: 600;
     }
+
+    @media(max-width: 790px){
+        display: none;
+    }
 `;

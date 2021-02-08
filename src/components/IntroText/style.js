@@ -21,5 +21,14 @@ export const IntroTextStyle = styled.div`
         font-size: 20px;
         font-weight: 400;
     }
+
+    @media(max-width: 480px){
+        flex-basis: 100%;
+        margin: 50px 5% 50px;
+        text-align: center;
+        h1 {
+            font-size: 80px;
+        }
+    }
     
 `;

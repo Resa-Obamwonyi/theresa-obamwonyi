@@ -9,7 +9,7 @@ const IntroText=() => {
         <h1>
           Software Engineer
           <br />
-          <span className="pop-color">Creative</span>
+          <span className="pop-color">"Creative"</span>
           <br />
           Technical Writer.
         </h1>
