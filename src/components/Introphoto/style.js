@@ -11,7 +11,7 @@ export const IntroPhotoStyle = styled.div`
   }
 
   @media (max-width: 790px) {
-    flex-basis: 70%;
+    flex-basis: 0%;
   }
 
   @media (max-width: 480px) {
