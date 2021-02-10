@@ -16,7 +16,7 @@ const Sumtext=() => {
             Sed id auctor elit. Proin tellus risus, hendrerit et dui vitae, scelerisque placerat lectus.
             Morbi cursus malesuada erat non pharetra.</p>
 
-            <Button link="send-a-mail" width="150px">Send an Email</Button>
+            <Button link="send-a-mail" width="150px" className="btn">Send an Email</Button>
         </SumtextStyle>
         )
 }

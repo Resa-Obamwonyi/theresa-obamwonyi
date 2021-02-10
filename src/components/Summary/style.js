@@ -6,7 +6,7 @@ export const SummaryStyle = styled.div`
     display: flex;
     margin: 50px 5% 50px;
 
-    @media(max-width: 480px){
-        
+    @media(max-width: 790px){
+        flex-wrap: wrap;
     }
 `;

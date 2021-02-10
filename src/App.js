@@ -15,7 +15,6 @@ function App() {
       <Skill />
       <Summary />
       <StackWrap />
-      {/* <BlogSection /> */}
       <Footer />
     </div>
   );

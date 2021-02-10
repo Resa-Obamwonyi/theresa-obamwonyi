@@ -2,18 +2,32 @@ import styled from 'styled-components';
 
 
 export const SumtextStyle = styled.div`
-    flex-basis: 40%;
-    font-size: 25px;
-    .pop-color{
-        color: #FFD500;
+  width: 40%;
+  font-size: 25px;
+  .pop-color {
+    color: #ffd500;
+  }
+  .summary-paragraph {
+    line-height: 30px;
+    color: #353744;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  h1 {
+    font-size: 40px;
+  }
+
+  @media (max-width: 790px) {
+    width: 90%;
+    margin: auto 5%;
+    text-align: center;
+
+    h1 {
+      font-size: 30px;
     }
     .summary-paragraph{
-        line-height: 30px;
-        color: #353744;
-        font-size: 20px;
-        font-weight: 400;
+        text-align: justify;
     }
-    h1{
-        font-size: 40px;
-    }
+
+  }
 `;
