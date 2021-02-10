@@ -2,22 +2,32 @@ import styled from 'styled-components';
 
 
 export const NavWrapStyle = styled.div`
-    display: flex;
-    float: right;
+  flex-basis: 35%;
 
-    .burger{
-        font-size: 50px;
-        display: none;
-    }
+  .burger {
+    display: none;
+  }
 
-    @media(max-width: 790px){
-        float: none;
-        .burger{
-            display: block;
-            padding: 20px 150px 15px;
-        }
-        button{
-            display: none;
-        }
+  @media (max-width: 790px) {
+    flex-basis: 10%;
+
+    .burger {
+      display: block;
+      font-size: 50px;
+      padding: 20px 10px;
     }
+    button {
+      display: none;
+    }
+  }
+
+  @media (max-width: 480px) {
+    flex-basis: 20%;
+
+    .burger {
+      display: block;
+      font-size: 50px;
+      padding: 20px 10px;
+    }
+  }
 `;

@@ -16,8 +16,8 @@ const Skill=()=>{
         <SkillSingle>
           <IoFastFoodSharp />
           <span>Foodie</span>
-        </SkillSingle>
-
+          </SkillSingle>
+ 
         <SkillSingle>
           <FaFeather />
           <span>Scribbler</span>
@@ -27,6 +27,7 @@ const Skill=()=>{
           <GiMusicalNotes />
           <span>Music Junkie</span>
         </SkillSingle>
+
       </SkillStyle>
     );
 }

@@ -6,7 +6,7 @@ export const ButtonStyle = styled.button`
   background-color: #14151b;
   width: ${({ width }) => width};
   height: 50px;
-  margin: 10px 20px 10px 0px;
+  margin: 15px 20px 10px 0px;
   border-radius: 5px;
   border: none;
   a {
