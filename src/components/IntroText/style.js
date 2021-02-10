@@ -38,7 +38,7 @@ export const IntroTextStyle = styled.div`
     margin: 50px 5% 50px;
     text-align: center;
     h1 {
-      font-size: 80px;
+      font-size: 70px;
     }
     .intro-paragraph {
       font-size: 20px;
