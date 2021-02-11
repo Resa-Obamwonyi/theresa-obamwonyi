@@ -10,12 +10,10 @@ const Header=()=> {
   const [showMenu, setShowMenu] = useState(false);
   let menu;
 
-  // setShowMenu(!showMenu);
   if (showMenu) {
-    menu = <SideNavWrap />;
+    menu = <SideNavWrap showMenu={showMenu} setShowMenu={setShowMenu} />;
   }
 
-  console.log(showMenu);
   return (
     <HeadStyle>
       <Logo />

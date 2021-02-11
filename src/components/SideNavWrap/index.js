@@ -1,22 +1,14 @@
-import React, { useState } from 'react';
-import { SideNavWrapStyle } from './style';
+import React from "react";
+import { SideNavWrapStyle } from "./style";
 import SideNav from "../SideNav";
 import { IoCloseSharp } from "react-icons/io5";
 import { FaUser, FaBlog, FaPhoneAlt } from "react-icons/fa";
 import { CgWorkAlt } from "react-icons/cg";
-// import { GiHamburgerMenu } from "react-icons/gi";
 
+const SideNavWrap = ({ showMenu, setShowMenu }) => {
 
-const SideNavWrap = () => {
-const [hideMenu, setHideMenu] = useState(false);
-  let view;
-
-if (hideMenu) {
-  view = "none";
-}
-  console.log(hideMenu);
   return (
-    <SideNavWrapStyle style={{ display: view }}>
+    <SideNavWrapStyle style={{ display: !showMenu && "none" }}>
       <SideNav link="#About">
         <FaUser />
       </SideNav>
@@ -34,10 +26,10 @@ if (hideMenu) {
       </SideNav>
 
       <SideNav>
-        <IoCloseSharp onClick={() => setHideMenu(!hideMenu)} />
+        <IoCloseSharp onClick={() => setShowMenu(false)} />
       </SideNav>
-    </SideNavWrapStyle>     
+    </SideNavWrapStyle>
   );
-}; 
+};
 
 export default SideNavWrap;
