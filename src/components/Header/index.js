@@ -6,7 +6,6 @@ import SideNavWrap from "../SideNavWrap";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 
-
 const Header=()=> {
   const [showMenu, setShowMenu] = useState(false);
   let menu;

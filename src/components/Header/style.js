@@ -16,15 +16,16 @@ export const HeadStyle = styled.div`
     .burger {
       display: block;
       font-size: 50px;
-      padding: 20px 10px;
+      padding: 5px 10px 10px;
     }
+    max-height: 60px;
   }
 
   @media (max-width: 480px) {
     .burger {
       display: block;
       font-size: 50px;
-      padding: 20px 10px;
+      padding: 5px 10px 10px;
     }
   }
 `;

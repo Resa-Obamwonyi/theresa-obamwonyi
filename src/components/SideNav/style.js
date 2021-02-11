@@ -7,7 +7,7 @@ export const SideNavStyle = styled.li`
     a {
         text-decoration: none;
         color: #ffffff;
-        font-size: 45px;
+        font-size: 30px;
         font-weight: 600;
     }
 
