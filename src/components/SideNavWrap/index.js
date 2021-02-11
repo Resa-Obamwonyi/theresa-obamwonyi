@@ -4,7 +4,7 @@ import SideNav from "../SideNav";
 import { IoCloseSharp } from "react-icons/io5";
 import { FaUser, FaBlog, FaPhoneAlt } from "react-icons/fa";
 import { CgWorkAlt } from "react-icons/cg";
-import { GiHamburgerMenu } from "react-icons/gi";
+// import { GiHamburgerMenu } from "react-icons/gi";
 
 
 const SideNavWrap = () => {
