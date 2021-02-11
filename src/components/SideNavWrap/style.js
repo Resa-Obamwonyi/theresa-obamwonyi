@@ -15,8 +15,7 @@ export const SideNavWrapStyle = styled.div`
     background-color: #569acb;
     color: white;
     align-items: center;
-    ${'' /* transition: transform 0.5s ease-in; */}
-    ${'' /* transform: translateX(0%); */}
-    ${"" /* height: 80vh; */}
+    transition: transform 0.5s ease-in; 
+    transform: translateX(0%);
   }
 `;
