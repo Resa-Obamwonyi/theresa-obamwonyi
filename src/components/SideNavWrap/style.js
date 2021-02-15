@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const SideNavWrapStyle = styled.div`
   display: none;
-
   @media (max-width: 790px) {
+    overflow: scroll;
     display: flex;
     position: absolute;
     right: 0px;
@@ -12,10 +12,14 @@ export const SideNavWrapStyle = styled.div`
     flex-wrap: wrap;
     flex-direction: column;
     width: 50%;
-    background-color: #569acb;
+    background-color: #14151b;
     color: white;
     align-items: center;
-    transition: transform 0.5s ease-in; 
-    transform: translateX(0%);
+    transform: translateX(0);
+
+    .open {
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-out;
+    }
   }
 `;

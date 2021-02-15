@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const NavWrapStyle = styled.div`
-  flex-basis: 35%;
+  flex-basis: 40%;
 
   .burger {
     display: none;
