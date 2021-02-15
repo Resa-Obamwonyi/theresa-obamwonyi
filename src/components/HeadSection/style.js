@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const HeadSectionStyle = styled.div`
   background-color: #14151b;
   font-size: 29px;
+  min-height: 450px;
   margin: 80px 0px 50px 0px;
-  padding: 30px 50px;
+  padding: 30px 50px 50px 30px;
   color: #ffffff;
   text-align: center;
 

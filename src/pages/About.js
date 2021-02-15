@@ -9,16 +9,16 @@ function About() {
     <div>
       <HeadSection>
         <h1>
-          Software Engineer
-          <br />
-          <span className="pop-color">"Creative"</span>
-          <br />
-          Technical Writer.
+          Theresa
+          <span className="pop-color"> "Resa" </span>
+          Obamwonyi
         </h1>
         <p className="intro-paragraph">
-          I am passionate about building sustainable and scalable software
-          applications. Efficient, Dedicated, and Creative.
-          <br />A highly analytic, emphatic team player.{" "}
+          A perfect balance of psycho
+          and sweet. A blasting of musical instruments of the strings and bass,
+          graceful and erratic, quiet and loud, crazy and analytical.<br /> When I
+          think of myself, I think of the coin. Two sides, depending on how you
+          flip, you see whichever face comes up.
         </p>
         <Button
           link="#more"
