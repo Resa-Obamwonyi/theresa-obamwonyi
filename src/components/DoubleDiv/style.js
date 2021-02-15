@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const DoubleDivStyle = styled.div`
   display: flex;
+  color: #353744;
+
   .div-one {
     font-size: 50px;
     margin: 50px 5%;

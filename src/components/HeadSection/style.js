@@ -13,6 +13,10 @@ export const HeadSectionStyle = styled.div`
     color: #146fac;
   }
 
+  .fit-color {
+    color: #ffd500;
+  }
+
   h1 {
     font-size: 60px;
   }
