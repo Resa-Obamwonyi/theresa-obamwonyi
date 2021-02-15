@@ -5,7 +5,7 @@ export const HeadSectionStyle = styled.div`
   font-size: 29px;
   min-height: 450px;
   margin: 80px 0px 50px 0px;
-  padding: 30px 50px 50px 30px;
+  padding: 70px 50px 0px 50px;
   color: #ffffff;
   text-align: center;
 
@@ -24,29 +24,17 @@ export const HeadSectionStyle = styled.div`
     font-weight: 400;
   }
 
-  ${
-    "" /* @media (max-width: 790px) {
-    flex-basis: 100%;
-    margin: 80px 5% 50px;
-    text-align: center;
-    h1 {
-      font-size: 80px;
-    }
+ @media (max-width: 790px) {
+    margin: 50px 0px 50px 0px;
+    padding: 70px 50px 50px 30px;
     .intro-paragraph {
-      font-size: 25px;
+      font-size: 20px;
+      padding: 10px 20px;
     }
   }
 
   @media (max-width: 480px) {
-    flex-basis: 100%;
-    margin: 50px 5% 50px;
-    text-align: center;
-    h1 {
-      font-size: 70px;
-    }
-    .intro-paragraph {
-      font-size: 20px;
-    }
-}; */
+    padding: 30px 50px 70px 30px;
+};
   }
 `;
