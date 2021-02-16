@@ -2,7 +2,7 @@ import Skill from "../components/Skill";
 import HeadSection from "../components/HeadSection";
 import DoubleDiv from "../components/DoubleDiv";
 import Button from "../components/Button";
-
+import Collage from "../components/Collage";
 
 
 function About() {
@@ -42,6 +42,7 @@ function About() {
         I love how my fingers sink into them when I massage my scalp with scented oils and lotions.
         I love how I listen to Billie, Amanda, Maverick, Burna or Sia while I wash soap suds off my eyes, The music blasting off speakers and how I drive my imaginations beyond speed limits."
       />
+      <Collage />
       <Skill />
     </div>
   );

@@ -10,7 +10,7 @@ const Skill=()=>{
       <SkillStyle>
         <SkillSingle>
           <GiHoodie />
-          <span>Hoodie Hoader</span>
+          <span>Hoodie Hoarder</span>
         </SkillSingle>
 
         <SkillSingle>
