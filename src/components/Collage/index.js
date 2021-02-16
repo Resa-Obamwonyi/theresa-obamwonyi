@@ -3,7 +3,6 @@ import { CollageStyle } from "./style";
 import imgone from "../../images/img-one.jpeg";
 import imgthree from "../../images/img-three.jpg";
 import imgfour from "../../images/img-four.jpg";
-import imgfive from "../../images/img-five.jpeg";
 import imgseven from "../../images/img-seven.jpeg";
 
 
