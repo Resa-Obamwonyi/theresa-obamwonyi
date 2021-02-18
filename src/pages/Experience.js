@@ -1,6 +1,6 @@
 import Skill from "../components/Skill";
 
-function Experience() {
+const Experience = () => {
   return (
     <div>
       <Skill />

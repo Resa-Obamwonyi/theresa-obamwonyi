@@ -1,33 +1,40 @@
 import HeadSection from "../components/HeadSection";
-import Button from "../components/Button";
-// import BlogSection from './components/BlogSection';
+import axios from "axios";
+import BlogSection from '../components/BlogSection';
 
-function Blog() {
+
+
+const Blog = () => {
   return (
     <div>
       <HeadSection>
-        <h1>
+        <h2>
           Medium
           <br />
           <span className="pop-color">"Twitter"</span>
           <br />
           Hashnode.
-        </h1>
+        </h2>
         <p className="intro-paragraph">
-          I am passionate about building sustainable and scalable software
-          applications. Efficient, Dedicated, and Creative.
-          <br />A highly analytic, emphatic team player.{" "}
+          I write about people, emotions and technology.
         </p>
-        <Button
-          link="#more"
-          width="200px"
-          className="btn"
-          backgroundColor="#146fac"
-          color="#ffffff"
-        >
-          Follow Me
-        </Button>
       </HeadSection>
+
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          width: "90%",
+          margin: "auto 5%",
+        }}
+      >
+        <BlogSection />
+        <BlogSection />
+        <BlogSection />
+        <BlogSection />
+        <BlogSection />
+        <BlogSection />
+      </div>
     </div>
   );
 }

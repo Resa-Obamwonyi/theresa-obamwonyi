@@ -5,7 +5,7 @@ import Button from "../components/Button";
 import Collage from "../components/Collage";
 
 
-function About() {
+const About = () => {
   return (
     <div>
       <HeadSection>

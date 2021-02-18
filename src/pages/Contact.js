@@ -1,6 +1,6 @@
 import Skill from "../components/Skill";
 
-function Contact() {
+const Contact = () => {
   return (
     <div>
       <Skill />
