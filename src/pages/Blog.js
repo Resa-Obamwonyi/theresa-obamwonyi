@@ -55,7 +55,7 @@ const Blog = () => {
           margin: "auto 5%",
         }}
       >
-        <BlogSection />
+        <BlogSection postlink={GetPost()}/>
         <BlogSection />
         <BlogSection />
         <BlogSection />
