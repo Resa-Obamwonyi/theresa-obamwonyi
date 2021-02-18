@@ -30,7 +30,7 @@ export const HeadSectionStyle = styled.div`
 
  @media (max-width: 790px) {
     margin: 50px 0px 50px 0px;
-    padding: 70px 50px 50px 30px;
+    padding: 70px 50px 30px 30px;
     .intro-paragraph {
       font-size: 20px;
       padding: 10px 20px;
@@ -38,7 +38,7 @@ export const HeadSectionStyle = styled.div`
   }
 
   @media (max-width: 480px) {
-    padding: 30px 50px 70px 30px;
+    padding: 50px 50px 30px 50px;
 };
   }
 `;

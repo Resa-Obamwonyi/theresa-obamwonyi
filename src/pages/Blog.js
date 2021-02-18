@@ -2,12 +2,17 @@ import React, {useEffect, useState} from "react";
 import HeadSection from "../components/HeadSection";
 import axios from "axios";
 import BlogSection from '../components/BlogSection';
+import MedBlogSection from "../components/BlogSectionMed";
+
 
 const Blog = () => {
 
   const [data, setData] = useState([]);
+  const [med, setMed] = useState([]);
 
-  useEffect( () => {
+
+  useEffect(() => {
+  // Hashnode Posts
    axios({
     url: "https://api.hashnode.com/",
     method: "post",
@@ -31,7 +36,18 @@ const Blog = () => {
       const posts = res.data.data.user.publication.posts;
       setData(posts);
     })
-    .catch((err) => console.log(err));
+     .catch((err) => console.log(err));
+    
+    // Medium posts
+    axios
+      .get(
+        "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@resa_obamwonyi"
+      )
+      .then((res) => {
+        const medPosts = res.data.items;
+        setMed(medPosts)
+      })
+      .catch((err) => console.log(err));
 })
   return (
     <div>
@@ -58,6 +74,11 @@ const Blog = () => {
         {data.map((response) => (
           <BlogSection response={response} key={response.cuid} />
         ))}
+
+        {med.map((response) => (
+          <MedBlogSection response={response} key={response.guid} />
+        ))}
+        
       </div>
     </div>
   );

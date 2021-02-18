@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BlogSectionStyle = styled.div`
+export const MedBlogSectionStyle = styled.div`
   flex-basis: 25%;
   margin-bottom: 50px;
 
