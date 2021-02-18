@@ -1,9 +1,14 @@
+import React, {useEffect, useState} from "react";
 import HeadSection from "../components/HeadSection";
 import axios from "axios";
 import BlogSection from '../components/BlogSection';
 
-const GetPost = () => {
-  axios({
+const Blog = () => {
+
+  const [data, setData] = useState([]);
+
+  useEffect( () => {
+   axios({
     url: "https://api.hashnode.com/",
     method: "post",
     data: {
@@ -13,7 +18,6 @@ const GetPost = () => {
           publication {
             posts (page:0) {
               title
-              brief
               slug
               cuid
               coverImage
@@ -23,15 +27,12 @@ const GetPost = () => {
       }
       `,
     },
-  })
-    .then((res) => {
-      console.log(res.data);
+  }).then((res) => {
+      const posts = res.data.data.user.publication.posts;
+      setData(posts);
     })
-    .catch((err) => console.log(err));;
-}
-
-
-const Blog = () => {
+    .catch((err) => console.log(err));
+})
   return (
     <div>
       <HeadSection>
@@ -46,7 +47,6 @@ const Blog = () => {
           I write about people, emotions and technology.
         </p>
       </HeadSection>
-
       <div
         style={{
           display: "flex",
@@ -55,15 +55,13 @@ const Blog = () => {
           margin: "auto 5%",
         }}
       >
-        <BlogSection postlink={GetPost()}/>
-        <BlogSection />
-        <BlogSection />
-        <BlogSection />
-        <BlogSection />
-        <BlogSection />
+        {data.map((response) => (
+          <BlogSection response={response} key={response.cuid} />
+        ))}
       </div>
     </div>
   );
 }
+
 
 export default Blog;

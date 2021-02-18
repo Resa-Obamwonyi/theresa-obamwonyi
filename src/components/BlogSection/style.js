@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const BlogSectionStyle = styled.div`
   flex-basis: 25%;
+  margin-bottom: 50px;
 
   .card-wrapper {
     padding: 2%;
@@ -14,7 +15,7 @@ export const BlogSectionStyle = styled.div`
   .card {
     position: relative;
     max-width: 300px;
-    background-color: #146fac;
+    background-color: #14151b;
     border-radius: 8px;
     overflow: hidden;
     padding-bottom: 10px;
@@ -22,15 +23,15 @@ export const BlogSectionStyle = styled.div`
   }
 
   .image-wrapper {
-    background-color: #14151b;
+    background-color: #ffffff;
     width: auto;
     height: 200px;
     overflow: hidden;
   }
 
   img {
-    max-width: 100%;
-    height: auto;
+    object-fit: cover;
+    height: 100%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }
@@ -46,9 +47,10 @@ export const BlogSectionStyle = styled.div`
   }
 
   .heading {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 1;
+    color: #ffffff;
   }
 
   .heading::after {
@@ -57,20 +59,21 @@ export const BlogSectionStyle = styled.div`
     margin-top: 0.5em;
     width: 30px;
     height: 5px;
-    background-color: black;
+    background-color: #ffffff;
   }
 
   .text {
     font-weight: 100;
-    font-size: 12px;
+    font-size: 16px;
     padding-top: 10px;
     line-height: 2;
+    color: #ffffff;
   }
 
-@media(max-width: 790px){
+  @media (max-width: 790px) {
     flex-basis: 50%;
-    }
-@media(max-width: 480px){
+  }
+  @media (max-width: 480px) {
     flex-basis: 100%;
-}
+  }
 `;
