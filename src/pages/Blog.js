@@ -2,6 +2,33 @@ import HeadSection from "../components/HeadSection";
 import axios from "axios";
 import BlogSection from '../components/BlogSection';
 
+const GetPost = () => {
+  axios({
+    url: "https://api.hashnode.com/",
+    method: "post",
+    data: {
+      query: `
+      query {
+        user(username:"Resa") {
+          publication {
+            posts (page:0) {
+              title
+              brief
+              slug
+              cuid
+              coverImage
+            }
+          }
+        }
+      }
+      `,
+    },
+  })
+    .then((res) => {
+      console.log(res.data);
+    })
+    .catch((err) => console.log(err));;
+}
 
 
 const Blog = () => {

@@ -5,21 +5,21 @@ import Button from "../Button";
 const BlogSection = ({postlink, imageurl, alt, title, synopsis}) => {
     return (
       <BlogSectionStyle>
-        <div class="card-wrapper">
-          <div class="card">
-            <div class="image-wrapper">
-              <a class="image-link" href={postlink}>
+        <div className="card-wrapper">
+          <div className="card">
+            <div className="image-wrapper">
+              <a className="image-link" href={postlink}>
                 <img
                   src={imageurl}
                   alt={alt}
                 />
               </a>
             </div>
-            <div class="text-box-wrapper">
-              <div class="text-box">
-                <h1 class="heading">{title}</h1>
+            <div className="text-box-wrapper">
+              <div className="text-box">
+                <h1 className="heading">{title}</h1>
 
-                <p class="text">
+                <p className="text">
                  {synopsis}
                 </p>
               </div>
