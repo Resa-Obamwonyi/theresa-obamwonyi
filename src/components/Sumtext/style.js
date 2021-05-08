@@ -14,7 +14,8 @@ export const SumtextStyle = styled.div`
     font-weight: 400;
   }
   h1 {
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 400;
   }
 
   @media (max-width: 790px) {
@@ -25,9 +26,8 @@ export const SumtextStyle = styled.div`
     h1 {
       font-size: 30px;
     }
-    .summary-paragraph{
-        text-align: justify;
+    .summary-paragraph {
+      text-align: justify;
     }
-
   }
 `;

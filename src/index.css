@@ -1,8 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@font-face {
+  font-family: "";
+  src: local("Helvetica"),
+    url("../src/assets/Helvetica/Helvetica-Neue-LT-65-Medium.ttf") format("truetype");
+}
+
+/* @font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"),
+    url("../src/assets/Helvetica/static/Mulish-Bold.ttf") format("truetype");
+} */
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap'); */
 
 body {
   margin: 0;
-  font-family: 'Stylish', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   overscroll-behavior: none;
   height: 100%;
 }

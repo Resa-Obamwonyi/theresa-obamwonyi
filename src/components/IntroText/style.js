@@ -4,15 +4,17 @@ import styled from 'styled-components';
 export const IntroTextStyle = styled.div`
   flex-basis: 40%;
   font-size: 29px;
-  text-align: left;
-  margin: 120px 0px 50px 30px;
+  text-align: center;
+  margin: 170px 50px 50px 0px;
   color: #14151b;
 
   .pop-color {
     color: #569acb;
   }
   h1 {
-    font-size: 60px;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 10px;
   }
 
   .intro-paragraph {
@@ -20,6 +22,7 @@ export const IntroTextStyle = styled.div`
     color: #353744;
     font-size: 20px;
     font-weight: 400;
+    padding-bottom: 20px;
   }
   @media (max-width: 790px) {
     flex-basis: 100%;

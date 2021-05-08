@@ -10,9 +10,9 @@ export const SkillSingleStyle = styled.div`
 
   span {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     display: block;
-    font-weight: 600;
+    font-weight: 400;
   }
   @media (max-width: 790px) {
     flex-basis: 50%;

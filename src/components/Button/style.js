@@ -13,7 +13,7 @@ export const ButtonStyle = styled.button`
   a {
     text-decoration: none;
     color: ${({ color }) => (color ? color : "#ffffff")};
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
   }
 `;

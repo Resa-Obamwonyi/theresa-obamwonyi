@@ -8,13 +8,12 @@ const IntroText=() => {
     
     return (
       <IntroTextStyle>
-          <h1>
-            Software Engineer
-            <br />
-            <span className="pop-color">"Creative"</span>
-            <br />
-            Technical Writer.
-          </h1>
+        <h1>Theresa Obamwonyi,
+        <br />
+          <span className="pop-color">Software Engineer</span>
+          <br />
+          and Technical Writer.
+        </h1>
         <p className="intro-paragraph">
           I am passionate about building sustainable and scalable software
           applications. Efficient, Dedicated, and Creative.
@@ -22,7 +21,7 @@ const IntroText=() => {
         </p>
         <Button
           link="https://drive.google.com/file/d/1zPVfT3IH4k9pVhUpAeaY-U4dJMEFMLDa/view?usp=sharing"
-          width="200px"
+          width="150px"
           className="btn"
         >
           Download Resume

@@ -7,7 +7,7 @@ const Sumtext=() => {
     return (
       <SumtextStyle>
         <h1>
-          Committed to Making things Work.
+          Committed to Making things Work,
           <br />
           <span className="pop-color">Lifelong Learner</span>
         </h1>

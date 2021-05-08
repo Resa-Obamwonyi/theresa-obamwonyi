@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const LogoStyle = styled.div`
   flex-basis: 60%;
   color: #14151b;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
   padding: 25px 30px;
 
   @media (max-width: 790px) {

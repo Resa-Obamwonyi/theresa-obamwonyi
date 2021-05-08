@@ -6,54 +6,50 @@ export const CollageStyle = styled.div`
   margin: 50px 0% 50px 5%;
 
   .div-one {
-    flex-basis: 39%;
+    ${'' /* flex-basis: 39%; */}
     display: flex;
-    flex-direction: column;
-    margin-right: 1%;
   }
 
   .div-two {
-    flex-basis: 59%;
+    ${'' /* flex-basis: 59%; */}
     display: flex;
-    flex-direction: column;
-    margin-left: 1%;
   }
 
   .div-three {
-    flex-basis: 60%;
+    flex-basis: 25%;
   }
 
   .div-four {
-    flex-basis: 40%;
+    flex-basis: 25%;
   }
 
   .div-five {
-    flex-basis: 40%;
+    flex-basis: 25%;
   }
 
   .div-six {
-    flex-basis: 60%;
+    flex-basis: 25%;
   }
 
   .img1 {
     margin-left: 20%;
     margin-bottom: 3%;
-    width: 80%;
+    width: 50%;
   }
 
   .img2 {
     width: 65%;
-    margin-left: 35%;
+    margin-left: 50%;
   }
 
   .img3 {
     margin-bottom: 3%;
     width: 50%;
-    margin-right: 30%;
+    margin-right: 50%;
   }
 
   .img4 {
-    width: 70%;
+    width: 50%;
   }
 
   img {
