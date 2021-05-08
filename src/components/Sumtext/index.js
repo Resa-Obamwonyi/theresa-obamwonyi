@@ -20,8 +20,8 @@ const Sumtext=() => {
           calmness are found in music, quiet minimalist spaces and books.
         </p>
 
-        <Button link="send-a-mail" width="150px" className="btn">
-          Send an Email
+        <Button link="/contact" width="150px" className="btn">
+          Contact Me
         </Button>
       </SumtextStyle>
     );

@@ -1,56 +1,53 @@
 import styled from "styled-components";
 
 export const CollageStyle = styled.div`
-  display: flex;
-  width: 100%;
-  margin: 50px 0% 50px 5%;
-
   .div-one {
-    ${'' /* flex-basis: 39%; */}
     display: flex;
-  }
-
-  .div-two {
-    ${'' /* flex-basis: 59%; */}
-    display: flex;
+    width: 80%;
+    margin: auto 10%;
+    justify-content: space-between;
   }
 
   .div-three {
-    flex-basis: 25%;
+    flex-basis: 23%;
   }
 
   .div-four {
-    flex-basis: 25%;
+    flex-basis: 23%;
   }
 
   .div-five {
-    flex-basis: 25%;
+    flex-basis: 23%;
   }
 
   .div-six {
-    flex-basis: 25%;
+    flex-basis: 23%;
   }
 
-  .img1 {
+  ${
+    "" /* .img1 {
     margin-left: 20%;
     margin-bottom: 3%;
     width: 50%;
+  } */
   }
 
-  .img2 {
+  ${"" /* .img2 {
     width: 65%;
     margin-left: 50%;
-  }
+  } */}
 
-  .img3 {
+  ${
+    "" /* .img3 {
     margin-bottom: 3%;
     width: 50%;
     margin-right: 50%;
+  } */
   }
 
-  .img4 {
+  ${"" /* .img4 {
     width: 50%;
-  }
+  } */}
 
   img {
     border-radius: 20px;

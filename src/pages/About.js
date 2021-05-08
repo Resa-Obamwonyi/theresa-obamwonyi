@@ -1,7 +1,6 @@
 import Skill from "../components/Skill";
 import HeadSection from "../components/HeadSection";
 import DoubleDiv from "../components/DoubleDiv";
-import Button from "../components/Button";
 import Collage from "../components/Collage";
 
 
@@ -15,32 +14,27 @@ const About = () => {
           Obamwonyi
         </h1>
         <p className="intro-paragraph">
-          A perfect balance of psycho and
-          <span className="fit-color"> sweet</span>. A blasting of musical
-          instruments of the strings and bass,
-          <span className="fit-color"> graceful</span> and erratic, quiet and
-          loud, crazy and <span className="fit-color">analytical</span>.
-          <br /> When I think of myself, I think of the coin. Two sides,
-          depending on how you flip, you see whichever face comes up.
+        Fullstack Software Engineer, curious about programming and design principles, Algorithm Lover and Team Player.
+         
         </p>
-        <Button
-          link="#"
-          width="200px"
-          className="btn"
-          backgroundColor="#146fac"
-          color="#ffffff"
-        >
-          Learn More
-        </Button>
       </HeadSection>
       <DoubleDiv id="more"
         contentone="There is a calmness in how I work. I envy her, that is me."
-        contenttwo="With a dedicated mind, I focus on what is important and push myself to the limit and beyond. I find my music and rhythm in nature, quiet streets and windy nights. 
-        I hate the running and screaming and noisy affair of cities. But I live in them still.
-        As an adult, my peace and calmness are found in music, quiet minimalist spaces and books."
-        contentthree="I have thick slightly off black hair. 
-        I love how my fingers sink into them when I massage my scalp with scented oils and lotions.
-        I love how I listen to Billie, Amanda, Maverick, Burna or Sia while I wash soap suds off my eyes, The music blasting off speakers and how I drive my imaginations beyond speed limits."
+
+        contenttwo="I am Theresa Obamwonyi, A Software Engineer with 3 years of programming Experience.
+        I think programming languages are just tools that serve as a means to an end, so I try not to get fixated on them.
+        In the past, I have worked with PHP, and Laravel for server side programming, But currently I work with Python,
+        Javascript and React for client-side programming. 
+        I am also experienced with HTML and CSS."
+        
+        contentthree="I am certified in a host of Software engineering polices such as Project Requirement Generation, 
+        AGILE and SCRUM methodologies and Project Management. 
+        I have verstile experience in Continous integration using GitHub actions and Travis CI. 
+        I am also experienced in using Docker and AWS S3.
+        
+        I am currently learning the uses of Google Cloud services as well as Microsoft Azure. I carve out time to study
+        about Data structures, Design Patterns, and writing better Algorithms,
+        Food is one of my favourite things."
       />
       <Collage />
       <Skill />

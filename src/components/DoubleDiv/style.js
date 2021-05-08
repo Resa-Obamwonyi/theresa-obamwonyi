@@ -5,14 +5,14 @@ export const DoubleDivStyle = styled.div`
   color: #353744;
 
   .div-one {
-    font-size: 50px;
-    margin: 50px 5%;
+    font-size: 40px;
+    margin: 100px 5%;
     width: 40%;
     flex-basis: 50%;
   }
 
   .div-two {
-    font-size: 20px;
+    font-size: 16px;
     margin: 50px 5%;
     width: 40%;
     flex-basis: 50%;

@@ -12,7 +12,7 @@ export const IntroTextStyle = styled.div`
     color: #569acb;
   }
   h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     padding-bottom: 10px;
   }
@@ -26,25 +26,27 @@ export const IntroTextStyle = styled.div`
   }
   @media (max-width: 790px) {
     flex-basis: 100%;
-    margin: 80px 5% 50px;
+    margin: 120px 5% 50px;
     text-align: center;
     h1 {
-      font-size: 80px;
+      font-size: 40px;
     }
     .intro-paragraph {
-      font-size: 25px;
+      font-size: 20px;
     }
   }
 
   @media (max-width: 480px) {
     flex-basis: 100%;
-    margin: 50px 5% 50px;
+    margin: 120px 5% 100px;
     text-align: center;
     h1 {
-      font-size: 70px;
+      font-size: 35px;
     }
     .intro-paragraph {
-      font-size: 20px;
+      font-size: 17px;
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
   }
 `;

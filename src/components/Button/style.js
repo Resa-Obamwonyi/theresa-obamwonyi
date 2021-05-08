@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const ButtonStyle = styled.button`
-  font-family: "Stylish", sans-serif;
+  font-family: "Helvetica", sans-serif;
   background-color: ${({ backgroundColor }) =>
     backgroundColor ? backgroundColor : "#14151b"};
   width: ${({ width }) => width};
