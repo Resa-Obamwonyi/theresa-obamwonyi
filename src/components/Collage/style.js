@@ -54,6 +54,21 @@ export const CollageStyle = styled.div`
     width: 100%;
   }
 
-  @media (max-width: 790px) {
+  @media (max-width: 480px) {
+    ${'' /* .div-three {
+      flex-basis: 100%;
+    }
+
+    .div-four {
+      flex-basis: 100%;
+    }
+
+    .div-five {
+      flex-basis: 100%;
+    }
+
+    .div-six {
+      flex-basis: 100%;
+    } */}
   }
 `;

@@ -25,13 +25,16 @@ export const HeadSectionStyle = styled.div`
   .intro-paragraph {
     line-height: 30px;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
   }
 
  @media (max-width: 790px) {
     margin: 50px 0px 50px 0px;
-    padding: 70px 50px 30px 30px;
+    padding: 90px 50px 50px 30px;
+    h1 {
+    font-size: 40px;
+    }
     .intro-paragraph {
       font-size: 20px;
       padding: 10px 20px;
@@ -39,7 +42,14 @@ export const HeadSectionStyle = styled.div`
   }
 
   @media (max-width: 480px) {
-    padding: 50px 50px 30px 50px;
+    padding: 80px 50px 50px 50px;
+    h1 {
+    font-size: 20px;
+    }
+      .intro-paragraph {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
 };
   }
 `;
