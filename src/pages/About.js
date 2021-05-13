@@ -37,7 +37,7 @@ const About = () => {
         Food is one of my favourite things."
       />
       <Collage />
-      <Skill />
+      {/* <Skill /> */}
     </div>
   );
 }
