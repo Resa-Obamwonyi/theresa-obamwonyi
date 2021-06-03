@@ -5,7 +5,7 @@ import { FaRegCopyright } from "react-icons/fa";
 const Footer = () => {
   return (
     <FooterStyle>
-      <FaRegCopyright /> Resa Obamwonyi, {new Date().getFullYear()}
+       <span> <FaRegCopyright /> Resa Obamwonyi, {new Date().getFullYear()}</span>
     </FooterStyle>
   );
 };

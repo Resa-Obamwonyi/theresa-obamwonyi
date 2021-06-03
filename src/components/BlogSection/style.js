@@ -15,7 +15,7 @@ export const BlogSectionStyle = styled.div`
   .card {
     position: relative;
     max-width: 300px;
-    max-height: 500px;
+    max-height: 450px;
     background-color: #14151b;
     border-radius: 8px;
     overflow: hidden;
@@ -50,9 +50,9 @@ export const BlogSectionStyle = styled.div`
   }
 
   .heading {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 1;
+    line-height: 30px;
     color: #ffffff;
   }
 

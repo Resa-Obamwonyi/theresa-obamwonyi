@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "";
+  font-family: 'Helvetica', sans-serif;
   src: local("Helvetica"),
     url("../src/assets/Helvetica/Helvetica-Neue-LT-65-Medium.ttf") format("truetype");
 }

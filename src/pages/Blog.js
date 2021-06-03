@@ -53,15 +53,10 @@ const Blog = () => {
     <div>
       <HeadSection>
         <h2>
-          Medium
-          <br />
-          <span className="pop-color">"Twitter"</span>
-          <br />
-          Hashnode.
+          Technical Writings
         </h2>
         <p className="intro-paragraph">
-          I write about people, emotions and technology.
-        </p>
+          Here, you can find my collection of technical articles to help developers. </p>
       </HeadSection>
       <div
         style={{

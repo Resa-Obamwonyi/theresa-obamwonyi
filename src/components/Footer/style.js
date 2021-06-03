@@ -5,4 +5,7 @@ export const FooterStyle = styled.footer`
   font-size: 20px;
   margin-top: 100px;
   margin-bottom: 50px;
+  span{
+    font-size: 12px;
+  }
 `;

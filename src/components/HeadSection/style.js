@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const HeadSectionStyle = styled.div`
   background-color: #14151b;
+  
   font-size: 29px;
   height: 200px;
   margin: 80px 0px 50px 0px;
