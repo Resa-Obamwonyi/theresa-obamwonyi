@@ -6,7 +6,7 @@ export const FooterStyle = styled.footer`
   margin-top: 100px;
   margin-bottom: 50px;
   span{
-    font-size: 12px;
+    font-size: 14px;
   }
-  
+
 `;
