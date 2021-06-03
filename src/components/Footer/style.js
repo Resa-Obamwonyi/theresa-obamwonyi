@@ -8,4 +8,5 @@ export const FooterStyle = styled.footer`
   span{
     font-size: 12px;
   }
+  
 `;
