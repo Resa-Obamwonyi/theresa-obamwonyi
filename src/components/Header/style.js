@@ -8,6 +8,7 @@ export const HeadStyle = styled.div`
   width: 100% !important;
   z-index: 999;
   display: flex;
+  padding: 10px 0px;
 
   .burger {
     display: none;

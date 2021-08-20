@@ -2,15 +2,14 @@ import styled from 'styled-components';
 
 
 export const SkillSingleStyle = styled.div`
-  margin: 100px 2.5%;
   width: 20%;
-  font-size: 100px;
   text-align: center;
-  color: #14151b;
+  color: #222222;
+  padding: 10px 0px;
 
   span {
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     display: block;
     font-weight: 400;
   }

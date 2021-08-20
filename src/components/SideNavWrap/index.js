@@ -12,24 +12,21 @@ const SideNavWrap = ({ showMenu, setShowMenu }) => {
   }
   return (
     <SideNavWrapStyle style={{ display: !showMenu && "none" }} className={drawerClasses} >
-      <SideNav link="/">
-        <FaHome />
-      </SideNav>
 
-      <SideNav link="/about">
-        <FaUser />
+      <SideNav link="/">
+        Home      
       </SideNav>
 
       <SideNav link="/blog">
-        <FaBlog />
+        Technical Writings
       </SideNav>
 
       <SideNav link="/xp">
-        <CgWorkAlt />
+        Download Resume
       </SideNav>
 
       <SideNav link="/contact">
-        <FaPhoneAlt />
+        Contact
       </SideNav>
 
       <SideNav>

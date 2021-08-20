@@ -12,7 +12,7 @@ export const SideNavWrapStyle = styled.div`
     flex-wrap: wrap;
     flex-direction: column;
     width: 50%;
-    background-color: #14151b;
+    background-color: #222222;
     color: white;
     align-items: center;
     transform: translateX(0);

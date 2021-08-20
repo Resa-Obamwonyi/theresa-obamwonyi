@@ -9,8 +9,8 @@ const Main=() => {
 
     return (
         <MainStyle>
+                <div className="None"></div>
                 <IntroText /> 
-                <IntroPhoto srcname={resa} altname="theresa" />
         </MainStyle>
         )
 }

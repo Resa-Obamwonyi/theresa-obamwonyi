@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <div>
       <Main />
-      <Skill />
       <Summary />
       <StackWrap />
     </div>

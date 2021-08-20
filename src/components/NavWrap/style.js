@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const NavWrapStyle = styled.div`
   flex-basis: 40%;
-
   .burger {
     display: none;
   }
@@ -29,5 +28,9 @@ export const NavWrapStyle = styled.div`
       font-size: 50px;
       padding: 20px 10px;
     }
+  }
+
+  @media(min-width: 1280px){
+    flex-basis: 50%;
   }
 `;

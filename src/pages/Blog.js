@@ -38,16 +38,16 @@ const Blog = () => {
     })
      .catch((err) => console.log(err));
     
-    // Medium posts
-    axios
-      .get(
-        "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@resa_obamwonyi"
-      )
-      .then((res) => {
-        const medPosts = res.data.items;
-        setMed(medPosts)
-      })
-      .catch((err) => console.log(err));
+    // // Medium posts
+    // axios
+    //   .get(
+    //     "https://api.rss2json.com/v1/api.json?rss_url=https://resa-obamwonyi.medium.com/feed"
+    //   )
+    //   .then((res) => {
+    //     const medPosts = res.data.items;
+    //     setMed(medPosts)
+    //   })
+    //   .catch((err) => console.log(err));
 })
   return (
     <div>
@@ -70,9 +70,9 @@ const Blog = () => {
           <BlogSection response={response} key={response.cuid} />
         ))}
 
-        {med.map((response) => (
+        {/* {med.map((response) => (
           <MedBlogSection response={response} key={response.guid} />
-        ))}
+        ))} */}
         
       </div>
     </div>
