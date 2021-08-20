@@ -7,9 +7,9 @@ export const NavStyle = styled.li`
     padding:25px; 
     a {
         text-decoration: none;
-        color: #14151B;
-        font-size: 25px;
-        font-weight: 600;
+        color: #222222;
+        font-size: 20px;
+        font-weight: normal;
     }
 
     @media(max-width: 790px){

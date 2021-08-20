@@ -1,22 +1,8 @@
-@font-face {
-  font-family: 'Helvetica', sans-serif;
-  src: local("Helvetica"),
-    url("../src/assets/Helvetica/Helvetica-Neue-LT-65-Medium.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800&display=swap');
 
-/* @font-face {
-  font-family: "Helvetica";
-  src: local("Helvetica"),
-    url("../src/assets/Helvetica/static/Mulish-Bold.ttf") format("truetype");
-} */
-
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap'); */
-
-body {
+body, button {
   margin: 0;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
   overscroll-behavior: none;
   height: 100%;
 }

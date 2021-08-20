@@ -10,20 +10,14 @@ const NavWrap=() => {
 
     return (
       <NavWrapStyle>
-        <Nav link="/">
-          <FaHome />
+        <Nav link="/blog">
+          Technical Writings
         </Nav>
         <Nav link="/about">
-          <FaUser />
+          Download Resume
         </Nav>
-        <Nav link="/blog">
-          <FaBlog />
-        </Nav>
-        <Nav link="/xp">
-          <CgWorkAlt />
-        </Nav>
-        <Button link="/contact" width="150px" className="btn">
-          Contact
+        <Button link="/contact" width="126px" className="btn">
+          Contact Me
         </Button>
       </NavWrapStyle>
     );
