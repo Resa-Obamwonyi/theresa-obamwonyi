@@ -7,7 +7,6 @@ export const SkillStyle = styled.div`
   background: #FFFFFF;
   border-radius: 8px 0px 0px 0px;
   display: flex;
-  width: 60%;
   padding: 20px;
   margin: 0 0 0 40%;
   
