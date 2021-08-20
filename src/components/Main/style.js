@@ -6,4 +6,5 @@ export const MainStyle = styled.div`
     .None{
         flex-basis:10%;
     }
+    margin-bottom: 100px;
 `;

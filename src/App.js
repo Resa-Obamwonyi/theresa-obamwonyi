@@ -1,5 +1,4 @@
 import Home from "./pages/Home";
-import About from './pages/About';
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
@@ -16,7 +15,6 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
           <Route path="/xp" component={Experience} />
