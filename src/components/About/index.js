@@ -1,7 +1,11 @@
+import { useState } from "react";
 import { AboutStyle } from "./style";
 import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 const About = () => {
+
+    const [active, setActive] = useState(false);
+
   return (
     <AboutStyle>
       <div className="wrapper">
@@ -33,7 +37,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="wrapper">
+      <div className="wrapper" style={active ? {display: "flex"} : {display:"none"}}>
         <div class="left-div">
           <h1>There is a calmness in how I work. I envy her, that is me.</h1>
         </div>
@@ -55,7 +59,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="about-toggle">
+      <div className="about-toggle" style={active ? {display: "none"} : {display:"block"}} onClick={() =>setActive(true)}>
         <p>
           Read more
           <span>
@@ -63,7 +67,7 @@ const About = () => {
           </span>
         </p>
       </div>
-      <div className="about-toggle">
+      <div className="about-toggle" style={active ? {display: "block"} : {display:"none"}} onClick={() =>setActive(false)}>
         <p>
           Read less
           <span>
