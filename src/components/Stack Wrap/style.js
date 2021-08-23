@@ -14,7 +14,7 @@ export const StackWrapStyle = styled.div`
     }
     h1{
         font-size: 36px;
-        font-weight:normal;
+        font-weight:500;
     }
 
   @media (max-width: 790px) {

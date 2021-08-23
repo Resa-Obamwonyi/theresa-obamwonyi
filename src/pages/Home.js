@@ -1,7 +1,7 @@
 import Main from "../components/Main";
 import StackWrap from "../components/Stack Wrap";
 import About from "../components/About";
-import Skill from "../components/Skill";
+import Writing from "../components/HomeWriting";
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
       <Main />
       <About />
       <StackWrap />
+      <Writing />
     </div>
   );
 }

@@ -15,7 +15,7 @@ export const AboutStyle = styled.div`
   }
   h1 {
     font-size: 36px;
-    font-weight: normal;
+    font-weight: 500;
   }
   p {
     font-size: 24px;
@@ -25,11 +25,19 @@ export const AboutStyle = styled.div`
   .about-toggle {
     font-size: 24px;
     margin-left: 35%;
+    :hover{
+        pointer: cursor;
+    }
   }
   .about-toggle p {
-    width: 130px;
+    width: 120px;
     border-bottom: 2px solid #222222;
     padding-bottom: 5px;
+    :hover{
+        pointer: cursor;
+        border-bottom: 2px solid red;
+        color:red;
+    }
   }
 
   .about-toggle span {

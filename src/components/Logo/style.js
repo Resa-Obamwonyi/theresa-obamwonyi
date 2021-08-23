@@ -8,6 +8,15 @@ export const LogoStyle = styled.div`
   font-weight: 400;
   padding: 25px 30px;
 
+  a{
+    color: #222222;
+    text-decoration: none;
+    font-size: 20px;
+    :hover{
+      border-bottom: 1px solid red;
+  }
+  }
+
   @media (max-width: 790px) {
     flex-basis: 90%;
     padding: 15px 10px;

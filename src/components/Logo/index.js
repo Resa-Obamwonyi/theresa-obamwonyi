@@ -6,7 +6,7 @@ const Logo=()=> {
 
     return (
         <LogoStyle>  
-           Resa Obamwonyi
+           <a href="/">Resa Obamwonyi</a>
         </LogoStyle>
         )
 }
