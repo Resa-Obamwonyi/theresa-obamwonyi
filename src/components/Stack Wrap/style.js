@@ -5,11 +5,11 @@ export const StackWrapStyle = styled.div`
   display: flex;
   margin-top: 100px;
   .one{
-    flex-basis: 30%;
+    flex-basis: 28%;
     margin-left: 10%;
     }
   .two{
-        flex-basis: 50%;
+        flex-basis: 52%;
         display:flex;
     }
     h1{

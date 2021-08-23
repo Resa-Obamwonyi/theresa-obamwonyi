@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const SkillSingleStyle = styled.div`
-  width: 20%;
+  width: 25%;
   text-align: center;
   color: #222222;
   padding: 10px 0px;
