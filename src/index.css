@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800&display=swap');
 
-body, button {
+body, button, textarea, input {
   margin: 0;
   font-family: 'Darker Grotesque', sans-serif;
   overscroll-behavior: none;
