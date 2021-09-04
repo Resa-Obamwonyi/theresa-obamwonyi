@@ -6,7 +6,7 @@ import Writing from "../components/HomeWriting";
 const Home = () => {
   return (
     <div>
-      <Main />
+      <Main /> 
       <About />
       <StackWrap />
       <Writing />
