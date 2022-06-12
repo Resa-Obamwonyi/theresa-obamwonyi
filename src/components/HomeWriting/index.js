@@ -1,6 +1,7 @@
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { WritingStyle } from "./style";
-import BlogSection from "../BlogSection";
+import ArticlesHome  from "../ArticlesHome";
+
 
 const Writing = () => {
   return (
@@ -23,7 +24,7 @@ const Writing = () => {
           </a>
         </div>
       </div>
-    {/* <BlogSection /> */}
+      <ArticlesHome />
     </WritingStyle>
   );
 };
