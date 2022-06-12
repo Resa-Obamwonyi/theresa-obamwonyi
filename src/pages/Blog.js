@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import HeadSection from "../components/HeadSection";
 import axios from "axios";
-import BlogSection from '../components/BlogSection';
+import BlogViewHome from '../components/BlogViewHome';
 import MedBlogSection from "../components/BlogSectionMed";
 
 
@@ -62,12 +62,12 @@ const Blog = () => {
         style={{
           display: "flex",
           flexWrap: "wrap",
-          width: "90%",
-          margin: "auto 5%",
+          width: "80%",
+          margin: "auto 10%",
         }}
       >
         {data.map((response) => (
-          <BlogSection response={response} key={response.cuid} />
+          <BlogViewHome response={response} key={response.cuid} />
         ))}
 
         {/* {med.map((response) => (
