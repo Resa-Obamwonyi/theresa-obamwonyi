@@ -17,7 +17,7 @@ const HomeResume = () => {
                     <iframe src="https://docs.google.com/document/d/e/2PACX-1vT0cqQ4cqXt6kae--xm9eLiTEZSL_Pv2oU9EG8bdPAE6z9yJhOOZpy9FpQn0nbJFykXaKDjBRJXHrae/pub?embedded=true"></iframe>
                 </div> */}
                 <div className="title-two">
-                    <a href="/blog">
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vT0cqQ4cqXt6kae--xm9eLiTEZSL_Pv2oU9EG8bdPAE6z9yJhOOZpy9FpQn0nbJFykXaKDjBRJXHrae/pub" target="_blank">
                         Download PDF
                         <span>
                             <AiOutlineArrowRight />

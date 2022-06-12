@@ -7,7 +7,7 @@ const Nav=({ children, link }) => {
     return (
         <NavStyle>  
 
-        <a href={link}>
+        <a href={link} target="_blank">
             {children}
             
         </a>
