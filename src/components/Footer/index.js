@@ -5,7 +5,7 @@ import Form from "../Form";
 
 const Footer = () => {
   return (
-    <FooterStyle>
+    <FooterStyle id="contact">
       <div className="top-section">
         <div className="handles">
           <h1>Get in touch</h1>

@@ -2,8 +2,6 @@ import React from "react";
 import { SideNavWrapStyle } from "./style";
 import SideNav from "../SideNav";
 import { IoCloseSharp } from "react-icons/io5";
-import { FaUser, FaBlog, FaPhoneAlt, FaHome } from "react-icons/fa";
-import { CgWorkAlt } from "react-icons/cg";
 
 const SideNavWrap = ({ showMenu, setShowMenu }) => {
   let drawerClasses = '';
@@ -21,11 +19,11 @@ const SideNavWrap = ({ showMenu, setShowMenu }) => {
         Technical Writings
       </SideNav>
 
-      <SideNav link="/xp">
+      <SideNav link="https://docs.google.com/document/d/e/2PACX-1vT0cqQ4cqXt6kae--xm9eLiTEZSL_Pv2oU9EG8bdPAE6z9yJhOOZpy9FpQn0nbJFykXaKDjBRJXHrae/pub">
         Download Resume
       </SideNav>
 
-      <SideNav link="/contact">
+      <SideNav link="#contact">
         Contact
       </SideNav>
 

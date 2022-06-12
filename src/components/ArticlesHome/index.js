@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
-import BlogSection from '../BlogSection';
+import BlogViewHome from '../BlogViewHome';
 import {ArticleHomeStyle} from "./style";
 
 
@@ -36,8 +36,8 @@ const ArticlesHome = () => {
 })
   return (
     <ArticleHomeStyle>
-        {data.map((response) => (
-          <BlogSection response={response} key={response.cuid} />
+        {data.slice(0, 4).map((response) => (
+          <BlogViewHome response={response} key={response.cuid} />
         ))}
     </ArticleHomeStyle>
   );
