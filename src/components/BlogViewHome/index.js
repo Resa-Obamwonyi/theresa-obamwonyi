@@ -1,13 +1,11 @@
 import React from "react";
 import { BlogViewHomeStyle } from "./style";
-import Button from "../Button";
 
 const BlogViewHome = ({ response }) => {
     
     return (
       <BlogViewHomeStyle>
-          <div className="card-wrapper">
-            <div className="card">
+          {/* <div className="card-wrapper"> */}
               <div className="image-wrapper">
                 <a
                   className="image-link"
@@ -26,8 +24,7 @@ const BlogViewHome = ({ response }) => {
                 </a>
                 </div>
               </div>
-            </div>
-          </div>
+          {/* </div> */}
       </BlogViewHomeStyle>
     );
 }
